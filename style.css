@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.banner{
+    height: 100%;
+    width: 100%;
+    background-color: #1c2b31;
+    background-attachment: top;
+    background-size: cover;
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+}
+.banner .nav{
+    margin-top: 1%;
+}
+.banner .navbar-band{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 10%;
+}
+.banner .nav{
+    margin-right: 10%;
+}
+.banner .nav  li a{
+    color: white;
+    font-size: 20px;
+}
+.banner .info{
+    margin-top: 1%;
+}
+.banner .info h1{
+    font-size: 2.5em;
+    font-weight: 700;
+    color: rgb(40, 27, 216);
+    letter-spacing: 2px;
+}
+.banner .info p{
+    font-size: 2em;
+    font-weight: 500;
+    color: rgb(228, 217, 215);
+    letter-spacing: 2px;
+}
+.banner .info button{
+    margin-left: 40%;
+    transition: tranlatex(-50%);
+    background: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.banner .info button:hover{
+    background-color: rgb(201, 46, 19);
+}
+.banner .info select{
+    height: 100px;
+    margin-bottom: 15px;
+    margin-left: 10%;
+}
+.banner .info select{
+    height: 50px;
+    width: 15%;
+    text-align: center;
+    display: inline-block;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.banner .info select option:hover{
+    background: #f0eeee;
+}
+.banner .info select option:active{
+    transform: translateY(4px);
+}
+.banner .info select .cities{
+    color: rgb(5, 5, 12);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    color: rgb(173, 161, 161);
+    line-height: 25px;
+}
+h2,h3{
+    color: #fff;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+h2{
+    font-size: 18px;
+}
+.footer-top{
+    background: #111;
+    padding: 80px 0;
+    height: 20%;
+}
+.title-0ne h3{
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    letter-spacing: 3px;
+    margin: 10px 0;
+}
+.title-two h2{
+    color:#fff ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+.title-two h2::before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+.title-two ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.title-two ul li{
+    border-bottom:  1px solid rgba(255, 255, 2555, 0.3);
+    line-height: 40px;
+}
+
+.title-two ul li a{
+    color: #999;
+    text-decoration: none;
+}
+.title-three h2{
+    color:#fff ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+.title-three h2::before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+.title-three a{
+    background: #494848;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.title-three a i{
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 12px;
+}
+.title-four h2{
+    color:#fff ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+.title-four h2:before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+.footer-bottom-text{
+    text-align: center;
+    background: #000;
+    line-height: 75px;
+    color: #fff;
+}
+.title-four ul li{
+    color: rgb(173, 161, 161);
+    line-height: 25px;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .name{
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          color: azure;
+          font-size: 20px;
+          text-align: center;
+          margin-right: 50px;
+  }
+  .location{
+      color: rgb(173, 161, 161);
+      line-height: 20px;
+      margin-left: 400px;
+  }
+ 
